@@ -34,7 +34,8 @@ namespace towr {
 DynamicModel::DynamicModel(double mass, int ee_count)
 {
   m_ = mass;
-  g_ = 9.80665;
+  // g_ = 9.80665;
+  g_ = 1.62;
 
   com_pos_.setZero();
   com_acc_.setZero();
